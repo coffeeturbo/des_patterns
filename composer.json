@@ -1,0 +1,11 @@
+{
+  "description": "design patterns",
+  "autoload": {
+    "psr-4": {
+      "DSP\\": "src"
+    }
+  },
+  "require": {
+
+  }
+}
