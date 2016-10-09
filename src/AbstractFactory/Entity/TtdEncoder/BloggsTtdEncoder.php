@@ -1,8 +1,5 @@
 <?php
-
-
 namespace DSP\AbstractFactory\Entity\TtdEncoder;
-
 
 use DSP\AbstractFactory\Entity\TtdEncoder;
 

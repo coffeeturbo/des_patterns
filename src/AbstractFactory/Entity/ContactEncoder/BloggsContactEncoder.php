@@ -1,8 +1,5 @@
 <?php
-
-
 namespace DSP\AbstractFactory\Entity\ContactEncoder;
-
 
 use DSP\AbstractFactory\Entity\ContactEncoder;
 

@@ -1,7 +1,6 @@
 <?php
 namespace DSP\AbstractFactory\Entity;
 
-
 abstract class CommsManager
 {
     CONST APPT = 1;

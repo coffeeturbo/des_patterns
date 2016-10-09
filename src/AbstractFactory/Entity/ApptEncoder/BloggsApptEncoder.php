@@ -1,7 +1,6 @@
 <?php
 namespace DSP\AbstractFactory\Entity\ApptEncoder;
 
-
 use DSP\AbstractFactory\Entity\ApptEncoder;
 
 class BloggsApptEncoder extends ApptEncoder

@@ -1,7 +1,6 @@
 <?php
 namespace DSP\AbstractFactory\Entity\CommsManager;
 
-
 use DSP\AbstractFactory\Entity\ApptEncoder;
 use DSP\AbstractFactory\Entity\ApptEncoder\BloggsApptEncoder;
 use DSP\AbstractFactory\Entity\CommsManager;
@@ -9,7 +8,6 @@ use DSP\AbstractFactory\Entity\ContactEncoder;
 use DSP\AbstractFactory\Entity\ContactEncoder\BloggsContactEncoder;
 use DSP\AbstractFactory\Entity\TtdEncoder;
 use DSP\AbstractFactory\Entity\TtdEncoder\BloggsTtdEncoder;
-
 
 class BloggsCommsManager extends CommsManager
 {

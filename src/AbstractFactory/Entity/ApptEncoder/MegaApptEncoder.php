@@ -1,8 +1,5 @@
 <?php
-
-
 namespace DSP\AbstractFactory\Entity\ApptEncoder;
-
 
 use DSP\AbstractFactory\Entity\ApptEncoder;
 
