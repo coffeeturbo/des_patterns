@@ -2,7 +2,7 @@
 namespace DSP\AbstractFactory\Entity;
 
 
-class ContactEncoder
+abstract class ContactEncoder
 {
-
+    abstract function encode();
 }

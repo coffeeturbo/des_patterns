@@ -2,9 +2,12 @@
 namespace DSP\AbstractFactory\Entity\CommsManager;
 
 use DSP\AbstractFactory\Entity\ApptEncoder;
+use DSP\AbstractFactory\Entity\ApptEncoder\MegaApptEncoder;
 use DSP\AbstractFactory\Entity\CommsManager;
 use DSP\AbstractFactory\Entity\ContactEncoder;
+use DSP\AbstractFactory\Entity\ContactEncoder\MegaContactEncoder;
 use DSP\AbstractFactory\Entity\TtdEncoder;
+use DSP\AbstractFactory\Entity\TtdEncoder\MegaTtdEncoder;
 
 class MegaCommsManager extends CommsManager
 {
@@ -12,16 +15,15 @@ class MegaCommsManager extends CommsManager
         return "верхний колонотип";
     }
 
-    function getApptEncoder(): ApptEncoder{
-        // TODO: Implement getApptEncoder() method.
-    }
-
-    function getContactEncoder(): ContactEncoder{
-        // TODO: Implement getContactEncoder() method.
-    }
-
-    function getTtdEncoder(): TtdEncoder{
-        // TODO: Implement getTtdEncoder() method.
+    function make(int $flag){
+        switch($flag){
+            case self::APPT:
+                return new MegaApptEncoder();
+            case self::TTD:
+                return new MegaContactEncoder();
+            case self::CONTACT:
+                return new MegaTtdEncoder();
+        }
     }
 
     function getFooterText(): string{

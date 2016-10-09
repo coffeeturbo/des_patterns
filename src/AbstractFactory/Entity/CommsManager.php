@@ -4,9 +4,11 @@ namespace DSP\AbstractFactory\Entity;
 
 abstract class CommsManager
 {
+    CONST APPT = 1;
+    CONST TTD = 2;
+    CONST CONTACT = 3;
+
     abstract function getHeaderText(): string;
-    abstract function getApptEncoder(): ApptEncoder;
-    abstract function getContactEncoder(): ContactEncoder;
-    abstract function getTtdEncoder(): TtdEncoder;
+    abstract function make(int $flag);
     abstract function getFooterText(): string;
 }

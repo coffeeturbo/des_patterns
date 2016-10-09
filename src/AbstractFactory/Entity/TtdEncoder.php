@@ -2,7 +2,7 @@
 namespace DSP\AbstractFactory\Entity;
 
 
-class TtdEncoder
+abstract class TtdEncoder
 {
-
+    abstract function encode();
 }
