@@ -5,3 +5,4 @@
 1. Singletone 
 2. Factory Method
 3. Abstract Factory
+4. Prototype 
