@@ -1,12 +1,12 @@
 <?php
-namespace DSP\Decorator;
+namespace DSP\Decorator\Plains\Plains;
 
 
-use DSP\Decorator\Entity\Tile\Plains;
-use DSP\Decorator\Entity\Tile\TileDecorator\DimondDecorator;
-use DSP\Decorator\Entity\Tile\TileDecorator\PolutedDecorator;
+use DSP\Decorator\Plains\Entity\Tile\Plains;
+use DSP\Decorator\Plains\Entity\Tile\TileDecorator\DimondDecorator;
+use DSP\Decorator\Plains\Entity\Tile\TileDecorator\PolutedDecorator;
 
-require __DIR__."/../../vendor/autoload.php";
+require __DIR__."/../../../vendor/autoload.php";
 
 $dimodnPlains = new DimondDecorator(new Plains());
 $polutedPlains = new PolutedDecorator(new Plains());

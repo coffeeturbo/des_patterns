@@ -1,7 +1,7 @@
 <?php
-namespace DSP\Decorator\Entity\Tile\TileDecorator;
+namespace DSP\Decorator\Plains\Entity\Tile\TileDecorator;
 
-use DSP\Decorator\Entity\Tile\TileDecorator;
+use DSP\Decorator\Plains\Entity\Tile\TileDecorator;
 
 class PolutedDecorator extends TileDecorator
 {

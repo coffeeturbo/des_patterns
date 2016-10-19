@@ -1,7 +1,7 @@
 <?php
-namespace DSP\Decorator\Entity\Tile;
+namespace DSP\Decorator\Plains\Entity\Tile;
 
-use DSP\Decorator\Entity\Tile;
+use DSP\Decorator\Plains\Entity\Tile;
 
 class Plains extends Tile
 {

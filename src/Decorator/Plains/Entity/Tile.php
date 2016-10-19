@@ -1,5 +1,5 @@
 <?php
-namespace DSP\Decorator\Entity;
+namespace DSP\Decorator\Plains\Entity;
 
 abstract class Tile
 {
