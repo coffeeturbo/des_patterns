@@ -9,3 +9,4 @@
 5. Composite
 6. Decorator
     * Plains
+    * Request
